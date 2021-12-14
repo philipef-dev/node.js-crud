@@ -4,12 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --transpile-only src/server.ts"
+    "dev": "ts-node-dev --transpile-only src/server.ts",
+    "typeorm:win": "ts-node -r tsconfig-paths/register node_modules\\typeorm\\cli.js",
+    "migration:generate:win": "npm run typeorm:win migration:generate -- -n"
   },
   "dependencies": {
     "express": "^4.17.1",
     "pg": "^8.7.1",
     "reflect-metadata": "^0.1.13",
+    "tsconfig-paths-webpack-plugin": "^3.5.2",
     "typeorm": "^0.2.41"
   },
   "devDependencies": {
