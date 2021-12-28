@@ -7,6 +7,9 @@ export class Category {
   id: string;
 
   @Column()
+  name: string;
+
+  @Column()
   description: string;
 
   @Column()

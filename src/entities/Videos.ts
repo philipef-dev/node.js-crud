@@ -1,5 +1,5 @@
 import { Column, Entity, JoinColumn, ManyToOne, PrimaryColumn } from "typeorm";
-import { Category } from "./Categoty";
+import { Category } from "./Category";
 
 @Entity("videos")
 export class Video {
