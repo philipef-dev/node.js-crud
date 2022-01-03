@@ -26,7 +26,7 @@ export class CreateVideos1639454370683 implements MigrationInterface {
           },
           {
             name: "duration",
-            type: "uuid",
+            type: "numeric",
           },
           {
             name: "created_at",
