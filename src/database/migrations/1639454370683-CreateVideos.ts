@@ -30,7 +30,7 @@ export class CreateVideos1639454370683 implements MigrationInterface {
           },
           {
             name: "created_at",
-            type: "timesamp",
+            type: "timestamp",
             default: "now()",
           },
         ],
