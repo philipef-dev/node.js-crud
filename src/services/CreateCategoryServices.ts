@@ -7,7 +7,7 @@ type CategoryRequest = {
 };
 
 export class CreateCategoryService {
-  async excute({ name, description }: CategoryRequest): Promise<Category | Error> {
+  async execute({ name, description }: CategoryRequest): Promise<Category | Error> {
     const repo = getRepository(Category);
 
     if(await repo.findOne({name})){

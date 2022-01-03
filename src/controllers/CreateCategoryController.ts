@@ -7,7 +7,7 @@ export class CreateCategoryController {
 
     const service = new CreateCategoryService();
 
-    const result = await service.excute({ name, description });
+    const result = await service.execute({ name, description });
 
     if (result instanceof Error) {
       return response.status(400).json(result.message);
