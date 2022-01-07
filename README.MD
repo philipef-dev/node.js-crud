@@ -21,7 +21,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias
 - [Node.js](https://nodejs.org/en/): é um ambiente "terminal" de execução "runtime" de linguagem Javascript. 
 - [Express](https://expressjs.com/pt-br/): Express é um framework Javascript.
 - [TypeScript](https://www.typescriptlang.org/): É um superset Javascript.
-- [PostsgreSQL](https://www.postgresql.org/): É um gerenciador de bancio de dados relacionado. 
+- [PostsgreSQL](https://www.postgresql.org/): É um gerenciador de banco de dados relacionado. 
 
 ## 🔧 Instalação e execução 
 
