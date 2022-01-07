@@ -3,7 +3,7 @@
 </div>
 <br>
 
-## Sobre
+## 📃 Sobre
 <br>
 
 Projeto desenvolvido para treinar minhas habiliades em NODEJS.
@@ -12,16 +12,42 @@ Criei um banco de dados com duas entidades videos e categorias, simulando um sis
 Ao listar um determinado video já me aparece a sua categoria e a descrição da mesma devido ao relacionamento criado. 
 <br>
 <br>
-## Tecnologias Utilizadas 
+## 🚀 Tecnologias e ferramentas utilizadas 
 <br>
 Este projeto foi desenvolvido utilizando as seguintes tecnologias
 
 <br>
 
-- [Node.js](https://nodejs.org/en/)
-- [Express](https://expressjs.com/pt-br/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [PostsgreSQL](https://www.postgresql.org/)
+- [Node.js](https://nodejs.org/en/): é um ambiente "terminal" de execução "runtime" de linguagem Javascript. 
+- [Express](https://expressjs.com/pt-br/): Express é um framework Javascript.
+- [TypeScript](https://www.typescriptlang.org/): É um superset Javascript.
+- [PostsgreSQL](https://www.postgresql.org/): É um gerenciador de bancio de dados relacionado. 
+
+## 🔧 Instalação e execução 
+
+Para baixar o código-fonte do projeto em sua máquina, primeiramente terá que ter instalado o [**Git**](https://git-scm.com/).
+
+Com o Git instalado, em seu terminal execute o seguinte comando:
+
+```bash
+git clone  https://github.com/PhilipeF/nodecrud.git
+```
+
+Instale as dependências do projeto no terminal:
+
+```bash
+yarn install
+```
+
+Execute o projeto:
+
+```bash
+yarn start
+```
+
+
+
+
 
 
 
