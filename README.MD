@@ -8,7 +8,7 @@
 
 Projeto desenvolvido para treinar minhas habiliades em NODEJS.
 
-Criei um banco de dados com duas entidades videos e categorias, simulando um sistema de cadastro de videos e suas respectivas categorias onde uma tabela se relaciona com a outra e eu posso cadastrar, deletar, editar e listar novos videos e categorias. 
+Foi criando um banco de dados com duas entidades. Videos e categorias, simulando um sistema de cadastro de videos e suas respectivas categorias onde uma tabela se relaciona com a outra e eu posso cadastrar, deletar, editar e listar novos videos e categorias. 
 Ao listar um determinado video já me aparece a sua categoria e a descrição da mesma devido ao relacionamento criado. 
 <br>
 <br>
