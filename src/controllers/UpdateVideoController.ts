@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { UpdateVideoService } from "src/services/UpdateVideoService";
+import { UpdateVideoService } from "../services/UpdateVideoService";
 
 export class UpdateVideoController {
   async handle(request: Request, response: Response) {

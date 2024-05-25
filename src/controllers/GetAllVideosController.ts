@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { GetAllVideosService } from "src/services/GetAllVideoService";
+import { GetAllVideosService } from "../services/GetAllVideoService";
 
 export class GetAllVideosController {
   async handle(request: Request, response: Response) {

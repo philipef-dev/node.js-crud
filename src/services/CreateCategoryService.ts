@@ -1,4 +1,4 @@
-import { Category } from "src/entities/Category";
+import { Category } from '../entities/Category'
 import { getRepository } from "typeorm";
 
 type CategoryRequest = {
@@ -10,8 +10,8 @@ export class CreateCategoryService {
   async execute({ name, description }: CategoryRequest): Promise<Category | Error> {
     const repo = getRepository(Category);
 
-    if(await repo.findOne({name})){
-        return new Error('Category already existis')
+    if (await repo.findOne({ name })) {
+      return new Error('Category already existis')
     }
 
     const category = repo.create({

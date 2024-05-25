@@ -1,4 +1,4 @@
-import { Video } from "src/entities/Videos";
+import { Video } from "../entities/Videos";
 import { getRepository } from "typeorm";
 
 export class DeleteVideoService {
